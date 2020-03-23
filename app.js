@@ -83,7 +83,7 @@ app.post("/api/users/login", (req,res)=>{
 			res.cookie("x_auth", user.token)
 			.status(200)
 			.json({
-				"message": "You have successfully logged in. Please visit /task route."
+				"message": "You have successfully logged in. Please visit https://ancient-sea-94337.herokuapp.com/task route."
 			})
 
 		})
